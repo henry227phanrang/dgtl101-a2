@@ -1,0 +1,138 @@
+body {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 1.8em;
+	line-height: 1.25em;
+}
+
+h2 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.25em;
+}
+
+.logo-container {
+	text-align: center;
+}
+
+.body {
+	width: 95%;
+	background: white;
+	margin: 0 auto;
+	font-family: Minion Pro, Dolly, Helvetica, Arial, "sans-serif";
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.social-icons a {
+	margin: 0 10px;
+	transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img {
+	width: 20px;
+	height: 20px;
+}
+
+
+
+.custom-line {
+	width: 80%;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+
+
+.exhibition article {
+	min-width: 300px;
+	background-color: white;
+	color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.exhibition {
+	padding: 20px;
+}
+
+.image-exhibit img {
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	transition: transform 0.2s;
+}
+
+.image-exhibit:hover {
+	transform: scale(1.1);
+}
+
+.image-exhibit:hover img {
+	transform: scale(1);
+}
+
+.photo-taken {
+	text-align: center;
+}
+
+.photo-taken img {
+	width: 200px;
+}
+
+.fig {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+
+
+/* Desktop: three-column layout */
+@media screen and (min-width: 1201px) {
+	h1 {
+		font-size: 1.6em;
+		line-height: 1.05em;
+	}
+
+	h2 {
+		font-size: 1.1em;
+		line-height: 1.1em;
+	}
+
+	p {
+		font-size: 1.2em;
+		line-height: 1em;
+	}
+
+	.exhibition {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-items: center;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
